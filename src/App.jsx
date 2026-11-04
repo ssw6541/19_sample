@@ -1,22 +1,14 @@
-import Body from "./body.jsx";
-import Footer from "./footer.jsx";
-
-function Header() {
-  return (
-    <header>
-      <h1>header</h1>
-    </header>
-  );
-}
+import Body from "./Body.jsx";
+import Footer from "./Footer";
+import Header from "./Header.jsx";
 
 function App() {
   return (
-    <>
-      <header />
-      <h1>헬로우 리액트</h1>
-      <Body />
+    <div>
+      <Header />
+      <Body name={"이정환"} />
       <Footer />
-    </>
+    </div>
   );
 }
 
