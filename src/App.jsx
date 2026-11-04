@@ -12,7 +12,7 @@ function Header() {
 function App() {
   return (
     <>
-      <Header />
+      <header />
       <h1>헬로우 리액트</h1>
       <Body />
       <Footer />

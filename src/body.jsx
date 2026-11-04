@@ -1,12 +1,10 @@
 function Body() {
-  const numA = 1;
-  const numB = 2;
-  return (
-    <>
-      <div>div 1</div>
-      <div>div 2</div>
-    </>
-  );
-}
+  const num = 200;
 
+  if (num % 2 === 0) {
+    return <div>{num}은 짝수입니다.</div>;
+  } else {
+    return <div>{num}은 홀수입니다.</div>;
+  }
+}
 export default Body;
